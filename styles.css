@@ -190,7 +190,7 @@
   }
   
   /* Diseño Responsivo */
-  @media (max-width: 57.5em) {
+  @media (max-width: 57.5rem) {
     .container {
       display: flex;
       flex-direction: row;
@@ -217,6 +217,14 @@
       left: 10%;
       top: 70%;
     }
+    
+    .btn_copiar,
+    .btn_copiar:hover{
+      width: 20%;
+      left: 20%;
+      top: 70%;
+    }
+    
     .btn-encriptar,
     .btn-desencriptar {
       width: 48%;
