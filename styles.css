@@ -190,7 +190,7 @@
   }
   
   /* Diseño Responsivo */
-  @media (max-width: 57.5rem) {
+  @media (max-width: 920px) {
     .container {
       display: flex;
       flex-direction: row;
