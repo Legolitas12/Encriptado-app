@@ -229,9 +229,10 @@
     
     .btn_copiar,
     .btn_copiar:hover{
-      width: 20%;
+      width: 10%;
       left: 20%;
       top: 70%;
+      border-radius: 16px;
     }
     
     .btn-encriptar,
