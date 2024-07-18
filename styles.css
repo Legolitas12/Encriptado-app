@@ -198,7 +198,7 @@
     top: 15%;
   }
   
-  /* Diseño Responsivo */
+  /* Diseño Responsivo 920 */
   @media (max-width: 920px) {
     .container {
       display: flex;
@@ -262,3 +262,137 @@
       visibility: hidden;
     }
   }
+
+  /* Diseño Responsivo 720 */ 
+@media (max-width: 720px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .encriptar {
+    width: 100%;
+  }
+  .texto {
+    width: 90%;
+    height: 50%;
+    left: 5%;
+    top: 5%;
+  }
+  .terminos {
+    width: 90%;
+    left: 5%;
+    top: 57%;
+  }
+  .terminos p {
+    font-size: 14px;
+  }
+  .botones {
+    width: 90%;
+    left: 5%;
+    top: 60%;
+  }
+  
+  .btn_copiar,
+  .btn_copiar:hover {
+    width: 15%;
+    left: 42.5%;
+    top: 70%;
+    border-radius: 16px;
+  }
+  
+  .btn-encriptar,
+  .btn-desencriptar {
+    width: 48%;
+    border-radius: 16px;
+  }
+  .btn-encriptar:hover,
+  .btn-desencriptar:hover {
+    margin: 0.3%;
+    width: 47.5%;
+    padding: 1.8%;
+  }
+  .encriptado {
+    width: 90%;
+    height: 20%;
+    left: 5%;
+    top: 75%;
+  }
+  .mensaje-encriptado {
+    width: 100%;
+    top: 5%;
+  }
+  .encriptado img {
+    top: 0;
+    display: none;
+    visibility: hidden;
+  }
+}
+
+
+/* Diseño Responsivo 375 */
+@media (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .encriptar {
+    width: 100%;
+  }
+  .texto {
+    width: 95%;
+    height: 45%;
+    left: 2.5%;
+    top: 5%;
+  }
+  .terminos {
+    width: 95%;
+    left: 2.5%;
+    top: 52%;
+  }
+  .terminos p {
+    font-size: 12px;
+  }
+  .botones {
+    width: 95%;
+    left: 2.5%;
+    top: 55%;
+  }
+  
+  .btn_copiar,
+  .btn_copiar:hover {
+    width: 20%;
+    left: 35%;
+    top: 65%;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 14px;
+    padding: 1px;
+  }
+  
+  .btn-encriptar,
+  .btn-desencriptar {
+    width: 48%;
+    border-radius: 16px;
+  }
+  .btn-encriptar:hover,
+  .btn-desencriptar:hover {
+    margin: 0.3%;
+    width: 47.5%;
+    padding: 1.8%;
+  }
+  .encriptado {
+    width: 95%;
+    height: 25%;
+    left: 2.5%;
+    top: 70%;
+  }
+  .mensaje-encriptado {
+    width: 100%;
+    top: 5%;
+  }
+  .encriptado img {
+    top: 0;
+    display: none;
+    visibility: hidden;
+  }
+}
